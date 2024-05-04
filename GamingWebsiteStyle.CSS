@@ -1,0 +1,255 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+div.maincontent {
+    height : 680px;
+    background-image: url(Images/background.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+}
+div.navbar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+}
+div.joinnavbar{
+    background-color: black;
+}
+div.navbar a {
+    color: white;
+    margin: 20px;
+}
+div.navbar a.Join {
+    padding: 10px;
+     border: 2px solid white;
+    border border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 35px;
+}
+div.details{
+    text-align: center;
+    color: white;
+    padding: 150px;
+}
+div.details button{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: darkturquoise;
+
+}
+div.Games{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+h1.up{
+ padding-right: 40px;
+ padding-bottom: 40px;
+ padding-top: 80px;
+text-align: center;
+}
+div.game{
+    text-align: center;
+}
+div.game div.img{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-image: url('Images/pubg.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+div.game2 div.img{
+background-image: url('Images/callofduty.jpg');
+
+}
+div.game3 div.img{
+background-image: url('Images/spiderman.jpg');
+
+}
+div.game4 div.img{
+background-image: url('Images/supermario.jpg');
+
+}
+
+div.maingame{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding:50px;
+    border-radius: 50px;
+    margin-top: 50px;
+    line-height: 30px;
+}
+div.maingame button{
+        padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: darkturquoise;
+}
+div.maingame img{
+    margin-right: -150px;
+    border-radius: 50px;
+}
+div.postcontent h1, div.postcontent p{
+    text-align: center;
+}
+div.posts{
+        display: flex;
+    width: 60%;         
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+div.post{
+    margin: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+div.post1 div.img, div.post2 div.img, div.post3 div.img{
+    background-image: url(Images/Post2.jpg);
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px; 
+    
+}
+div.post2 div.img{
+        background-image: url(Images/Post1.jpg);
+
+}
+div.post1 div.img{
+    background-image: url(Images/Post3.jpg);
+}
+div.post p{
+    font-size: 15px;
+    text-align: left;
+}
+div.post p, div.post h5{
+    display: inline-block;
+    font-size: 10px;
+}
+div.post h3, div.post p, div.post h5{
+    padding-left:  10px;
+    padding-right: 10px;
+}
+div.testis{
+    display: flex;
+    width: 50%;         
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+div.test h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+div.testi{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+div.testi div.img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: -50px; 
+    background-image: url(Images/man.png);
+    background-position : center;
+    background-size: cover;
+    border: 1px solid black;
+}
+
+div.pricing h2{
+    text-align:center; 
+}
+div.prices{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+div.price{
+    width: 30%
+    color: white;
+    color: white;6
+    background-color: darkcyan;
+    margin: 8px;
+    padding: 15px;
+    border-radius: 8px;
+}
+div.price button{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: darkturquoise;
+}
+div.planprice{
+    padding: 15px;
+}
+div.planprice h3{
+    margin: 0px;
+}
+.joinform{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.joinform .image{
+width: 35%
+}
+.joinform.form{
+    width: 65%;
+}
+.joinform.image{
+    background-image: url(Images/jr-korpa-JKRL7ofWWAA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+form input, form button {
+    padding: 10px;
+    font-size:16px;
+    border: 1px solid aqua;
+    display: block;
+    margin: 10px;
+}
+form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+     width: 60%;
+    padding-top: 50px;
+}
+form button {
+    background-color: blue;
+    color: white;
+}
